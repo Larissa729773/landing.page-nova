@@ -1,0 +1,93 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e4e4;
+}
+
+
+.cabecalho {
+    background-color:#000035;
+    background-image: linear-gradient(to right, red, blue);
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+    
+}
+
+.logo{
+ height: 60px;
+ width: 60px;
+ margin-right: 350px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 27px;
+      
+}
+
+nav a {
+    text-decoration: none;
+    color: #9EA1CA;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+    height: 350px;
+    color: #1c4c96;
+    margin-top: 150px;
+    font-size: 25px;
+    margin-bottom: px;
+  
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: rgb(223, 0, 0);
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+
+
+.contact {
+    text-align: center;
+    padding: 10px;
+    background-color: #000035;
+    color: #9EA1CA;
+}
+
+.contact  {
+ 
+   font-size: 20px;
+   margin-top: 10px;
+   padding:10px ;}
+
+
+.copy {
+    text-align: center;
+    background-color:#000035;
+    color: #fff;
+    padding:10px; }
+     
